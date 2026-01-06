@@ -14,7 +14,7 @@ Container-based applications are a modern approach to building, deploying, and r
 ## Table of Contents
 A. [Introducing](https://github.com/dendie-sanjaya/)
 B. [Container-Based Application Best Practices](https://github.com/dendie-sanjaya/)
-1. [History of Containers and Docker](https://github.com/dendie-sanjaya/)best-practice-docker-build--without-repo#1-history-of-containers-and-docker)
+1. [History of Containers and Docker](https://github.com/dendie-sanjaya/best-practice-docker-build--without-repo#1-history-of-containers-and-docker)
 2. [When Should Containers Be Used?](https://github.com/dendie-sanjaya/best-practice-docker-build--without-repo#2-when-should-containers-be-used)
 3. [Container-Based Application Flow](https://github.com/dendie-sanjaya/best-practice-docker-build--without-repo#3-container-based-application-flow)
   - [Local Developer Environment (Build Phase)](https://github.com/dendie-sanjaya/best-practice-docker-build--without-repo#31-local-developer-environment-build-phase)
