@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  # Layanan Aplikasi Golang Anda
+  app:
+    # Ganti 'namauser/nama-aplikasi' dengan image yang Anda push ke Docker Hub
+    image: my-apps:1.0
+    container_name: golang_app_container
+    restart: always
+    ports:
+      # Peta port HOST:CONTAINER
+      - "80:8080"
+    # Menambahkan pengecekan kesehatan (optional, best practice)
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
